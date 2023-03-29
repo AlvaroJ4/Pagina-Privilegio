@@ -12,11 +12,15 @@
     --default-font: 'Open Sans', sans-serif;
 }
 
+.corpo {
+    background-color: #ffffff;
+}
+
+/*Início cabeçalho*/
 .navbar {
     position: sticky;
     top: 0;
     width: 100%;
-    padding: 0px 24px;
     display: flex;
     align-items: center;
     background: #fff; 
@@ -64,7 +68,6 @@
 i {
     font-size: 30px;
     color: #444444;
-
 }
 
 .caixa-botao {
@@ -98,11 +101,66 @@ i {
     color: #fff;
     font-size: 12px;
 }
+/*Fim cabeçalho*/
 
-.conteudo-principal {
-    background-color: #f3f3f3;
-}
 
+/*Início mensagem*/
 .w3-dropdown-hover {
     padding-left: 1em;
+}
+
+.w3-bar-item {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+    color: #000;
+}
+
+.w3-dropdown-content {
+    box-shadow: 0 3px 6px -3px rgba(0,0,0,.5);
+}
+
+.w3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.titulo-anuncie {
+    color: #42519b; 
+    font-size: 25px;
+    font-family: var(--default-font);
+    text-decoration: none;
+}
+
+.w3-panel  {
+    font-size: 25px;
+    line-height: 200%;
+    word-break: break-word;
+}
+
+.paragrafo-anuncie {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    font-size: 20px;
+    line-height: 21px; 
+    font-family: var(--default-font);
+    text-align: center;  
+    color: #42519b;
+}
+
+.w3-panels {
+    padding-top:5px ;
+    background-color: #28398a;
+    border: 1px solid #28398a;  
+    width: 100%;
+}
+
+.w3-panel-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
 }
