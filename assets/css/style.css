@@ -1,0 +1,108 @@
+* {
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+:root {
+    --default-font: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 0px 24px;
+    display: flex;
+    align-items: center;
+    background: #fff; 
+}
+
+.navbar {
+    
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+.nav-lista {
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-lista .lista-item {
+    display: inline-block;
+    padding: 15px 10px;
+
+}
+
+.navbar .link-lista {
+    color: #444444;
+    text-decoration: none;
+    font-family: var(--default-font);
+    font-size: 16px;
+    line-height: 1.5rem;
+    transition: .3s;
+}
+
+.link-lista:hover {
+    color: #112cb4;
+}
+
+.favoritos {
+    margin-right: 4rem;
+    margin-left: 1%;
+}
+
+.favoritos:hover {
+    color: #112cb4;
+}
+
+i {
+    font-size: 30px;
+    color: #444444;
+
+}
+
+.caixa-botao {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: max-content;
+    background: 0 0;
+    border: none;
+    outline: 0;
+    box-shadow: 0 3px 6px -3px rgba(0,0,0,.5);
+    cursor: pointer;
+    position: relative;
+    background-color: #28398a;
+    padding: 4px 18px;
+    border-radius: 4px
+}
+
+.botao-anuncie {
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.botao-anuncie i {
+    padding-left: 0.5em;
+    color: #fff;
+    font-size: 12px;
+}
+
+.conteudo-principal {
+    background-color: #f3f3f3;
+}
+
+.w3-dropdown-hover {
+    padding-left: 1em;
+}
