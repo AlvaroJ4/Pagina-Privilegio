@@ -101,10 +101,7 @@ i {
     color: #fff;
     font-size: 12px;
 }
-/*Fim cabeçalho*/
 
-
-/*Início mensagem*/
 .w3-dropdown-hover {
     padding-left: 1em;
 }
@@ -120,7 +117,16 @@ i {
 .w3-dropdown-content {
     box-shadow: 0 3px 6px -3px rgba(0,0,0,.5);
 }
+/*Fim cabeçalho*/
 
+
+/*Início mensagem*/
+.w3-panel-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
 .w3-container {
     display: flex;
     flex-direction: column;
@@ -157,10 +163,45 @@ i {
     border: 1px solid #28398a;  
     width: 100%;
 }
+/*Fim Texto Mensgaem*/
 
-.w3-panel-card {
+
+/* Inicio Formulário */
+.w3-panel-cards {
+    width: 70%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 70%;
 }
+
+.formulario {
+    padding: 20px;
+}
+
+label {
+    color: #000;
+    line-height: 200%;
+    font-family: var(--default-font);
+    font-size: 14px;
+}
+
+input, select {
+    background-color: rgba(226, 224, 224, 0.378);
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-radius: 4px;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+    color: #000000;
+    padding: 10px;
+    width: 95%;   
+}
+
+input:focus {
+    outline: 0;
+}
+
+.w3-row {
+    padding-bottom: 1em;
+}
+
