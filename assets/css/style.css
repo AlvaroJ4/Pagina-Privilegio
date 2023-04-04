@@ -10,6 +10,7 @@
 
 :root {
     --default-font: 'Open Sans', sans-serif;
+    --fonte-datazp: 'Georgia', 'Times New Roman', Times, serif;
 }
 
 .corpo {
@@ -22,12 +23,12 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background: #fff; 
+    background: #fff;
 }
 
 .navbar {
-    
-    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
 
 .nav-lista {
@@ -77,7 +78,7 @@ i {
     background: 0 0;
     border: none;
     outline: 0;
-    box-shadow: 0 3px 6px -3px rgba(0,0,0,.5);
+    box-shadow: 0 3px 6px -3px rgba(0, 0, 0, .5);
     cursor: pointer;
     position: relative;
     background-color: #28398a;
@@ -114,8 +115,9 @@ i {
 }
 
 .w3-dropdown-content {
-    box-shadow: 0 3px 6px -3px rgba(0,0,0,.5);
+    box-shadow: 0 3px 6px -3px rgba(0, 0, 0, .5);
 }
+
 /*Fim cabeçalho*/
 
 
@@ -126,6 +128,7 @@ i {
     align-items: center;
     width: 80%;
 }
+
 .w3-container {
     display: flex;
     flex-direction: column;
@@ -134,13 +137,13 @@ i {
 }
 
 .titulo-anuncie {
-    color: #42519b; 
+    color: #42519b;
     font-size: 25px;
     font-family: var(--default-font);
     text-decoration: none;
 }
 
-.w3-panel  {
+.w3-panel {
     font-size: 25px;
     line-height: 200%;
     word-break: break-word;
@@ -150,18 +153,19 @@ i {
     padding-top: 1em;
     padding-bottom: 1.5em;
     font-size: 20px;
-    line-height: 21px; 
+    line-height: 21px;
     font-family: var(--default-font);
-    text-align: center;  
+    text-align: center;
     color: #42519b;
 }
 
 .w3-panels {
-    padding-top:5px ;
+    padding-top: 5px;
     background-color: #28398a;
-    border: 1px solid #28398a;  
+    border: 1px solid #28398a;
     width: 100%;
 }
+
 /*Fim Texto Mensgaem*/
 
 
@@ -184,7 +188,8 @@ label {
     font-size: 14px;
 }
 
-input, select {
+input,
+select {
     background-color: rgba(226, 224, 224, 0.378);
     border-bottom: 1px solid transparent;
     border-left: 1px solid transparent;
@@ -193,7 +198,7 @@ input, select {
     border-top: 1px solid transparent;
     color: #000000;
     padding: 10px;
-    width: 95%;   
+    width: 95%;
 }
 
 input:focus {
@@ -236,8 +241,6 @@ input:focus {
     color: #000;
 }
 
-
-
 button {
     align-items: center;
     background-color: rgba(226, 224, 224, 0.378);
@@ -248,7 +251,7 @@ button {
     border-top: 1px solid transparent;
     color: #000000;
     padding: 10px;
-    width: 100%; 
+    width: 100%;
 }
 
 button:hover {
@@ -256,5 +259,54 @@ button:hover {
     color: white;
 }
 
+/*Fim do formulario*/
 
 
+.logo-footer {
+    height: 50px;
+}
+
+.titulo-datazp {
+    line-height: 120%;
+    font-size: 12px;
+    color: #393d47;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.texto-datazap {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 0.5em;
+    line-height: 30px;
+    color: #393d47;
+    font-family: var(--default-font);
+}
+
+
+footer {
+    background-color: #1d329b;
+    color: #fff;
+    text-align: center;
+}
+
+.box {
+    flex-wrap: wrap;
+    max-width: 960px;
+}
+.w3-rows {
+    display: flex;
+}
+
+
+.caixa-logo {
+    padding: 1em;
+}
+
+.logo-footer {
+    height: 50px;
+}
+
+.lista-residenciais {
+    padding-top: 1em;
+}
