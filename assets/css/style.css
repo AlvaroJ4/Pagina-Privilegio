@@ -287,26 +287,19 @@ button:hover {
 footer {
     background-color: #1d329b;
     color: #fff;
-    text-align: center;
+    text-align: left;
+    
 }
 
-.box {
-    flex-wrap: wrap;
-    max-width: 960px;
-}
-.w3-rows {
-    display: flex;
-}
-
-
-.caixa-logo {
+.caixa-logo{
     padding: 1em;
 }
 
-.logo-footer {
-    height: 50px;
-}
-
-.lista-residenciais {
+.grid-container {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: auto auto auto auto auto;
     padding-top: 1em;
-}
+  }
+
+  
