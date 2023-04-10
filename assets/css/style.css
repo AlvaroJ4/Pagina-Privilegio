@@ -11,6 +11,7 @@
 :root {
     --default-font: 'Open Sans', sans-serif;
     --fonte-datazp: 'Georgia', 'Times New Roman', Times, serif;
+    --fonte-footer: 'Poppins', sans-serif;
 }
 
 .corpo {
@@ -293,13 +294,32 @@ footer {
 
 .caixa-logo{
     padding: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .grid-container {
     display: grid;
+    width: 100%;
     column-gap: 30px;
+    justify-content: center;
     grid-template-columns: auto auto auto auto auto;
     padding-top: 1em;
   }
 
+.grid-item {
+    padding-right: 1em;
+}
+
+.titulo-footer {
+    padding-bottom: 2em;
+    font-size: 15px;
+    font-family:var(--fonte-footer);
+    font-weight: 600;
+}
+
+.link-listas {
+    text-decoration: none;
+}
   
