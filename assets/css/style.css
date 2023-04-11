@@ -11,7 +11,7 @@
 :root {
     --default-font: 'Open Sans', sans-serif;
     --fonte-datazp: 'Georgia', 'Times New Roman', Times, serif;
-    --fonte-footer: 'Poppins', sans-serif;
+    --fonte-3: 'Poppins', sans-serif;
 }
 
 .corpo {
@@ -103,8 +103,17 @@ i {
     font-size: 12px;
 }
 
-.w3-dropdown-hover {
-    padding-left: 1em;
+.w3-dropdown-hover .w3-dropdown-content {
+    
+    position: absolute;
+    pointer-events: none;
+    padding: 16px 24px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 240px;
+    
 }
 
 .w3-bar-item {
@@ -167,7 +176,7 @@ i {
     width: 100%;
 }
 
-/*Fim Texto Mensgaem*/
+/*Fim Texto Mensagem*/
 
 
 /* Inicio Formulário */
@@ -286,7 +295,7 @@ button:hover {
 
 
 footer {
-    background-color: #1d329b;
+    background-color: #28398a;
     color: #fff;
     text-align: left;
     
@@ -302,9 +311,10 @@ footer {
 .grid-container {
     display: grid;
     width: 100%;
-    column-gap: 30px;
+    column-gap: 20px;
     justify-content: center;
     grid-template-columns: auto auto auto auto auto;
+    
     padding-top: 1em;
   }
 
@@ -313,13 +323,29 @@ footer {
 }
 
 .titulo-footer {
-    padding-bottom: 2em;
-    font-size: 15px;
+    padding-bottom: 1.5em;
+    font-size: 17px;
     font-family:var(--fonte-footer);
     font-weight: 600;
 }
 
-.link-listas {
+
+.link-footer {
     text-decoration: none;
+    color: #fff;
+    font-family: var(--fonte-footer);
+    font-size: 15px;
+}
+
+.local-footer {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.local-footer .grid-container {
+    grid-template-columns: auto auto;
 }
   
