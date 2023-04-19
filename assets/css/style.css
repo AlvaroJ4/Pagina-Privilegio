@@ -18,6 +18,22 @@
     background-color: #ffffff;
 }
 
+@media only screen and (min-width: 768px) {
+    .nav-lista {
+        display: none;
+    }
+
+    .logo-pri {
+        width: 100%;
+    }   
+
+    .navbar .caixa-botao{
+        display: none;
+    }
+
+    
+}
+
 /*Início cabeçalho*/
 .navbar {
     top: 0;
@@ -28,7 +44,6 @@
 }
 
 .navbar {
-
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
 
@@ -104,7 +119,7 @@ i {
 }
 
 .w3-dropdown-hover .w3-dropdown-content {
-    
+
     position: absolute;
     pointer-events: none;
     padding: 16px 24px;
@@ -113,7 +128,7 @@ i {
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     width: 240px;
-    
+
 }
 
 .w3-bar-item {
@@ -198,7 +213,7 @@ label {
     font-size: 14px;
 }
 
-input,
+
 select {
     background-color: rgba(226, 224, 224, 0.378);
     border-bottom: 1px solid transparent;
@@ -221,6 +236,11 @@ input:focus {
 
 .w3-row {
     padding-bottom: 1em;
+}
+
+.w3-row .w3-col.s6 {
+    display: flex;
+    flex-direction: column;
 }
 
 .numero-whatsapp {
@@ -294,15 +314,20 @@ button:hover {
 }
 
 
+
 footer {
     background-color: #28398a;
     color: #fff;
     text-align: left;
-    
+    width: 100%;
+    padding: 0%;
 }
 
-.caixa-logo{
-    padding: 1em;
+
+
+.caixa-logo {
+    padding-top: 2em;
+    padding-bottom: 2em;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -314,9 +339,8 @@ footer {
     column-gap: 20px;
     justify-content: center;
     grid-template-columns: auto auto auto auto auto;
-    
     padding-top: 1em;
-  }
+}
 
 .grid-item {
     padding-right: 1em;
@@ -325,7 +349,7 @@ footer {
 .titulo-footer {
     padding-bottom: 1.5em;
     font-size: 17px;
-    font-family:var(--fonte-footer);
+    font-family: var(--fonte-footer);
     font-weight: 600;
 }
 
@@ -341,11 +365,52 @@ footer {
     width: 100%;
     margin-top: 30px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
 .local-footer .grid-container {
     grid-template-columns: auto auto;
+    max-width: 960px;
+    justify-content: left;
 }
-  
+
+.central-atendimento {
+    padding-left: 3em;
+}
+
+.titulo-local {
+    padding-bottom: 1em;
+    font-size: 17px;
+    font-family: var(--fonte-footer);
+    font-weight: 600;
+}
+
+.titulo-atendimento {
+    padding-bottom: 1em;
+    font-size: 17px;
+    font-family: var(--fonte-footer);
+    font-weight: 600;
+}
+
+.paragrafo-footer {
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--fonte-footer);
+    font-size: 15px;
+}
+
+.social-midia {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.social-midia ul {
+    padding: 20px 0;
+}
+
+.social-midia ul li {
+    padding: 15px;
+}
